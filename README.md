@@ -1,2 +1,3 @@
 # pmmp-playground
-PocketMine-MP sample code
+
+PMMPのコードを置いておく場所です。煮るなり焼くなり好きにしてください。

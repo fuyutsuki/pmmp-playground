@@ -1,0 +1,5 @@
+name: ConfigTester
+prefix: ConfigTester
+version: 0.0.1
+main: fuyutsuki\ConfigTester\Main
+api: 3.17.0
