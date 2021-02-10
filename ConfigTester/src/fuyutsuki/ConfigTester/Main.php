@@ -28,12 +28,16 @@ class Main extends PluginBase {
         $data->save();// 上記の変更内容をファイルに書き込み
 
         $data->setAll([
-            "array" => [
-                "要素1",
-                "要素2"
-            ]
+            "player_name" => "Steve",
+            "xuid" => "484651231548678",
+            "device_os" => 7,
         ]);// data.jsonのデータをこれに置き換える
         $data->save();// 上記の変更内容をファイルに書き込み
+    }
+
+    public function onEnable() {
+        $playerData = PlayerData::jsonUnserialize($this->getDataFolder() . "data.json");
+        var_dump($playerData);
     }
 
 }
